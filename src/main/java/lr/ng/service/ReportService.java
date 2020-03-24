@@ -13,7 +13,7 @@ public class ReportService {
 
     @Transactional
     public Report getReport() {
-        Report report = Report.findById(1l);
+        Report report = Report.findById(2l);
         return report;
     }
     
